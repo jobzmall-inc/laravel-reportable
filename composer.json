@@ -1,6 +1,6 @@
 {
-    "name": "artisanry/reportable",
-    "description": "reportable Polymorphic Eloquent Models for Laravel 5",
+    "name": "jobzmall/reportable",
+    "description": "Reportable Polymorphic Eloquent Models for Laravel 8",
     "keywords": [
         "laravel",
         "framework",
@@ -9,14 +9,20 @@
     ],
     "license": "MPL-2.0",
     "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@basecode.sh",
-        "homepage": "https://basecode.sh"
-    }],
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        },
+        {
+            "name": "Logan Lehman",
+            "email": "logan@jobzmall.com",
+            "homepage": "https://jobzmall.com"
+        }
+    ],
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "^5.8|^6.0",
-        "illuminate/database": "^5.8|^6.0"
+        "php": "^7.3",
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.0",
